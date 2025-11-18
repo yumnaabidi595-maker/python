@@ -1,0 +1,10 @@
+str1 = "Hello" 
+str2 = "World" 
+full_str = str1 + " " + str2 
+print("Concatenated String:", full_str) 
+Accessing characters and sub-strings 
+print("First character:", full_str[0]) 
+print("Last character:", full_str[-1]) 
+print("Substring [0:5]:", full_str[0:5]) 
+print("Substring [6:]:", full_str[6:]) 
+print("Full string using slicing [:]:", full_str[:])

@@ -1,0 +1,11 @@
+fruits = [] 
+print("Initial empty list:", fruits) 
+fruits.append("Apple") 
+fruits.append("Banana") 
+fruits.append("Mango") 
+print("List after appending items:", fruits) 
+fruits.remove("Banana") 
+print("List after removing 'Banana':", fruits)
+fruits.append("Orange") 
+fruits.append("Grapes") 
+print("Final list after adding more items:", 

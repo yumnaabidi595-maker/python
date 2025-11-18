@@ -1,0 +1,12 @@
+n = int(input("Enter number of elements in the list: ")) 
+numbers = [] 
+for i in range(n): 
+element = int(input(f"Enter element {i+1}: ")) 
+numbers.append(element)
+search_num = int(input("Enter the number to search: ")) 
+Search and print result 
+if search_num in numbers: 
+index = numbers.index(search_num) 
+print(f"YES, found at index {index}") 
+else: 
+print("No") 
